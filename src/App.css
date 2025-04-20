@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  background-color: rgb(142, 97, 91);
+}
+h2{
+  text-align: center;
+  color: rgb(46, 11, 11);
+  font-weight: bold;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+  background-color: #f6dbca;
+}
+.parent{
+  display:flex;
+  justify-content: center;
+  align-items: center;      
+  min-height: 200px;  
+  padding: 10px;
+}
+
+.container{
+  width: 60%;
+  height: 600px;
+  padding: 20px; 
+  margin: 20px auto;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background-color: #f6dbca;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); 
+  gap: 10px; 
+  display:flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-size: 18px; 
+  
+}
+input{
+  color:#4d4d4d;
+  background-color: white;
+  padding: 12px 15px;
+  font-size: 18px; 
+  border-radius: 5px;
+  border:none;
+  width:100%;
+  box-sizing: border-box;
+  
+}
+.add{
+  background-color: rgb(54, 99, 70);
+  color:white;
+  border: none;             
+  border-radius: 5px;
+  text-align:center;
+  cursor:pointer;
+  padding: 12px 20px;
+  font-size: 18px; 
+}
+.add:hover{
+  background-color: rgb(32, 51, 32);
+}
+.inputbutton{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap:10px;
+  background-color: #f6dbca;
+}
+.finished{
+  text-decoration: line-through;
+  background-color: #6c6464;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color:black;
+  height:600px;
+  text-align:center;
+  border-radius: 5px; 
+  background-color: #d0a3a3;
+  
+}
+li{
+  background-color: #d0a3a3;
+  border:1px solid black;
+  padding: 12px 20px;
+  font-size: 20px;
+  margin: 5px 0; 
+  border-radius: 5px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight:bold;
+}
+.remove{
+  border: none;             
+  border-radius: 5px;
+  color:red;
+  background-color: black;
+  text-align: center;
+  padding: 12px 20px; 
+  font-size: 18px;
+  cursor:pointer;
+
+}
+.remove:hover{
+  background-color: rgb(126, 1, 1);
+}
